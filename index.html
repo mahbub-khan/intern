@@ -16,7 +16,6 @@
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,700i" rel="stylesheet">
-	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 </head>
 
 <body>
@@ -968,13 +967,14 @@
 
 
 
-    
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="js/isotope.js"></script>
 
     <script type="text/javascript" src="js/isotope-function.js"></script>
+    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
 
     <script type="text/javascript" src="js/owl.carousel.js"></script>
 
@@ -983,6 +983,8 @@
     <script type="text/javascript" src="js/custom.js"></script>
 
     <script type="text/javascript">
+
+
         $('.carousel').carousel({
             interval: 5000
         });
@@ -998,8 +1000,8 @@
 
         $("#fakeLoader").fakeLoader({
     
-            timeToHide:00, //Time in milliseconds for fakeLoader disappear
-            zIndex:-10000, // Default zIndex
+            timeToHide:0, //Time in milliseconds for fakeLoader disappear
+            zIndex:10000, // Default zIndex
             spinner:"spinner6",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7' 
             bgColor:"#42b061", //Hex, RGB or RGBA colors
             // imagePath:"images/Teddy Bear Loading.gif"
